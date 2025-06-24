@@ -48,7 +48,7 @@ export const eventList = [
     "id": 6,
     "heading": "Birthday Bash",
     "date": { "year": 2023, "month": "August" },
-    "location": "New York, USA",
+    "location": "Ahemdabad, India",
     "description": "Get ready to party! Join us for a birthday bash like no other. Enjoy live music, delicious food, and great company. Whether you're celebrating a milestone birthday or just want to have fun, this event is for you!",
     "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTL8OT6J261cs_mjqXGmR3kI7-wx9FUXR00qvbF_1FkJnwUjsGsD8A5vBzprBP5RsoOL2w&usqp=CAU"
   },
@@ -56,7 +56,7 @@ export const eventList = [
     "id": 7,
     "heading": "Wedding Celebration",
     "date": { "year": 2023, "month": "June" },
-    "location": "Paris, France",
+    "location": "Surat, India",
     "description": "Join us for a romantic wedding celebration! Enjoy an evening of love, laughter, and great food. Meet new people and make unforgettable memories.",
     "img": "https://i.pinimg.com/736x/2b/22/80/2b228042cadd772f999222bebaed9bb7.jpg"
   },
@@ -64,7 +64,7 @@ export const eventList = [
     "id": 8,
     "heading": "Meetup",
     "date": { "year": 2023, "month": "September" },
-    "location": "London, UK",
+    "location": "Mumbai, India",
     "description": "Meet new people and make connections! Join us for a meetup event where you can network, learn, and have fun. Whether you're looking for a new job or just want to meet like-minded people, this event is for you!",
     "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWFlZoaUtGFTXL8E_0lNmq_6RPs--dSkiVeg&s"
   },
@@ -72,10 +72,44 @@ export const eventList = [
     "id": 9,
     "heading": "Party Night",
     "date": { "year": 2023, "month": "October" },
-    "location": "Los Angeles, USA",
+    "location": "Bhavnagar, India",
     "description": "Get ready to party! Join us for a night of music, dancing, and fun. Whether you're looking to let loose or just want to have a good time, this event is for you!",
     "img": "https://hips.hearstapps.com/hmg-prod/images/hbz-the-list-full-moon-party-00-2-soc-1533065552.jpg?crop=0.6666666666666666xw:1xh;center,top&resize=1200:*"
+  },
+
+  {
+  id: 10,
+  heading: "Cosplay Carnival",
+  Location: "Mumbai, India",
+  date: { year: 2025, month: "June" },
+  dateStr: "2025-06-25",  // ✅ REQUIRED FOR CALENDAR
+  
+  },
+   {
+  id: 11,
+  heading: "Destination Wedding",
+  date: { year: 2025, month: "June" },
+  dateStr: "2025-06-27",  // ✅ REQUIRED FOR CALENDAR
+  
+  },
+  {
+  id: 12,
+  heading: "Birthday party",
+  date: { year: 2025, month: "July" },
+  dateStr: "2025-07-27",  // ✅ REQUIRED FOR CALENDAR
+  
+  },
+   {
+  id: 13,
+  heading: "Birthday party",
+  date: { year: 2025, month: "July" },
+  dateStr: "2025-07-28",  // ✅ REQUIRED FOR CALENDAR
+  
   }
+  
+
+
+
     
   ];
   

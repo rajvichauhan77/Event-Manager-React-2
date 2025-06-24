@@ -2,6 +2,7 @@ import React, { useCallback, useState } from "react";
 import { eventList } from "../utils/EventDatabase";
 import SearchEventList from "../components/SearchEventList";
 import FilterBox from "../components/FilterBox";
+import EventCalendar from "../components/EventCalander";
 
 
 const FilterEvent = () => {
@@ -18,12 +19,17 @@ const FilterEvent = () => {
             setMonthYear({selectedMonth, selectedYear})
     }, [])
 
+
+    const preBookedEvents = eventList.filter(event => event.date);
+
     return(
         <>  
             {/* <Navbar/> */}
             <div className="border p-3">
                 <FilterBox getMonthYear={getMonthYear}/>
                 <SearchEventList monthYear={monthYear}/>
+
+                 <EventCalendar events={preBookedEvents} />
             </div>
             
         </>

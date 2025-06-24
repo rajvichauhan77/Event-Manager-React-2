@@ -12,5 +12,5 @@ import Register from '../pages/Register'
     {path: '/events/:id', element: (<><Navbar /> <EventDetails/></>)  },{path: 'about-us', element: (<><Navbar /> <About/></>)},
     {path: 'contact-us', element: (<><Navbar /> <Contact/></>)},
     {path: 'register', element: (<><Navbar /> <Register/></>)},
-
+    
   ])
