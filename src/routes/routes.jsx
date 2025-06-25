@@ -9,8 +9,8 @@ import Register from '../pages/Register'
   export const routes =([
     {path: '/', element: (<><Navbar /> <EventList/></>)  },
     {path: '/find-events', element:(<><Navbar /> <FilterEvent/></>)  },
-    {path: '/events/:id', element: (<><Navbar /> <EventDetails/></>)  },{path: 'about-us', element: (<><Navbar /> <About/></>)},
-    {path: 'contact-us', element: (<><Navbar /> <Contact/></>)},
-    {path: 'register', element: (<><Navbar /> <Register/></>)},
+    {path: '/events/:id', element: (<><Navbar /> <EventDetails/></>)  },{path: '/about-us', element: (<><Navbar /> <About/></>)},
+    {path: '/contact-us', element: (<><Navbar /> <Contact/></>)},
+    {path: '/register', element: (<><Navbar /> <Register/></>)},
     
   ])
