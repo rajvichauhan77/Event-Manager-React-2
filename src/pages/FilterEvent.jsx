@@ -24,7 +24,7 @@ const FilterEvent = () => {
 
     return(
         <>  
-            {/* <Navbar/> */}
+          
             <div className="border p-3">
                 <FilterBox getMonthYear={getMonthYear}/>
                 <SearchEventList monthYear={monthYear}/>
